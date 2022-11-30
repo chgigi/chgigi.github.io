@@ -12,10 +12,6 @@ li {
     list-style: none;
 }
 
-body {
-    font-family: "Ralewayreg";
-}
-
 .navbar {
     display: flex;
     align-items: center;
