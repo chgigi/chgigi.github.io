@@ -1,13 +1,7 @@
-/* UTILITIES */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: cursive;
 }
 
 a {
@@ -18,6 +12,9 @@ li {
     list-style: none;
 }
 
+body {
+    font-family: "Ralewayreg";
+}
 
 .navbar {
     display: flex;
