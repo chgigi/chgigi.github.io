@@ -1,29 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Charles Ginane</title>
-</head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Charles Ginane -- about-me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <style>
+    .index {
+      width: 35em;
+      margin: 0 auto;
+      font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+  </style>
 
 <body>
-    <nav class="navbar">
-        <ul class="nav-links">
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-            <div class="menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">News</a></li>
-                <li><a href="/">Projects</a></li>
-                <li><a href="/">Files</a></li>
-                <li><a href="/">About me</a></li>
-                <li><a href="/">Version française</a></li>
-            </div>
+
+
+  <div id="text">
+    <h2> About Me</h2>
+    </br>
+    <p>Hey! I'm Charles Ginane. I am an IT engineer specialized in image processing and research and development. I did
+      my formation to the school EPITA
+      during my five years in the image processing specialisation. This specialisation develop my skills and methods on
+      image and video processing (image recognition,
+      image reconstruction and image segmentation), on image synthesis (image reproduction, video animation) and
+      artificial intelligence appliqued to image (image dectection, classification)</p>
+    </br>
+    <p>During my last two years, I worked at the LRDE (the main research laboratory of EPITA). I worked on a project in
+      Python to generate videos in marine environments by
+      using the MAYA API (An 3D generation software). The goal is to generate those videos to train an artificial
+      interlligence which detects any danger in marine environment like
+      colision or man at the sea. This dataset of video need to have a lot of parameters like weather, time, objects and
+      context.
+      With a Python library and a lot of 3D model of (boats, buoy, ...), I provide a simply way to generate video with
+      different parameters.</p>
+    <p>More precisely, I develop an artificial intelligence which detects any dangers in the marine environment.
+      My favorites languages are Python, C++ and C. I work on UNIX and Windows OS.
+      You can contact me for more information by sending me an email or click on below links:</p>
+
+    <ul style="margin-left: 3%">
+      <li style="list-style: square"><a href="https://www.linkedin.com/in/charles-ginane-745299132/" title="LinkedIn"></i> LinkedIn</a></li>
+      <li style="list-style: square"><a href="https://github.com/chgigi" title="GitHub"></i> Github</a></li>
+      <li style="list-style: square"><a href="ressources/CV_ginane_c.pdf" title="CV"></i> CV</a></li>
+      <li style="list-style: square"><a href="mailto:charles.ginane@gmail.com" title="Mail"></i> Mail</a></li>
+    </ul>
+    </br>
+    </br>
+    <h2> Experiences</h2>
+    </br>
+    <h3> <B>ATEME:</B> R&D engineer - <i style="color:gray;">(April 2021 - now)</i></h3>
+    </br>
+    <ul style="margin-left: 3%">
+      <li style="list-style: square"><B>Technical skills:</B> R&D, image processing, video processing, real time</li>
+      <li style="list-style: square"><B>Languages:</B> Python, C++</li>
+      <li style="list-style: square"><B>Achievement 1: </B>Product development around video streaming and contribution.</li>
+      <ul style="margin-left: 3%">
+        <li style="list-style: square">Product support different video format (SD, HD, UHD).</li>
+        <li style="list-style: square">Many encoding, decoding, transportation video solutions.</li>
+        <li style="list-style: square">Different type of video reception and video broadcast (IP video protocol, ASI, SDI, satellite).</li>
+        <li style="list-style: square">Low latency, real time and high bitrate compliant.</li>
+        <li style="list-style: square">Many acquisition cards supported.</li>
+      </ul>
+      <li style="list-style: square"><B>Achievement 2: </B>Maintaining the product with added functionality.</li>
+      <ul style="margin-left: 3%">
+        <li style="list-style: square">Added and maintained algorithms of video input / output for decoding, encoding and transportation.</li>
+        <li style="list-style: square">Integration of new card for video processing.</li>
+        <li style="list-style: square">Non regression and unit tests.</li>
+      </ul>
+      <li style="list-style: square"><B>Achievement 3: </B>Product support.</li>
+      <ul style="margin-left: 3%">
+        <li style="list-style: square">BHG (Bug Hunting Game) session to test new features of the product.</li>
+        <li style="list-style: square">Video analysis tool for quality (ETR).</li>
+        <li style="list-style: square">Technical support for customer.</li>
+      </ul>
+    </ul>
+    </br>
+    </br>
+    <h3> <B>Photospace:</B> R&D engineer - <i style="color:gray;">1 year (February 2020 - February 2021)</i></h3>
+    </br>
+    <ul style="margin-left: 3%">
+      <li style="list-style: square"><B>Technical stack:</B> R&D, image processing, video processing, computer vision, parallelization, AI, big
+        data</li>
+      <li style="list-style: square"><B>Languages:</B> C++, CUDA, Python</li>
+      <li style="list-style: square"><B>Mission 1: </B>Implementation of real-time image processing algorithms in a multi-spectral video processing
+        pipeline.</li>
+      <ul style="margin-left: 3%">
+        <li style="list-style: square"><B>Achievement 1: </B>Integration of stitching algorithm.</li>
+        <ul style="margin-left: 3%">
+          <li style="list-style: square">State of the art of stitching solutions.</li>
+          <li style="list-style: square">Implementation of feature and key detection and matching them between two images.</li>
+          <li style="list-style: square">Apply the homography matrix on images to merge them.</li>
+          <li style="list-style: square">Benchmark and test the solutions found in real time.</li>
         </ul>
-    </nav>
+        <li style="list-style: square"><B>Achievement 2: </B>Developing an algorithm of calibration and correction for camera distortion.</li>
+        <ul style="margin-left: 3%">
+          <li style="list-style: square">Developing a tool for a real time calibration with OpenCV.</li>
+          <li style="list-style: square">Computing the distortion coefficients.</li>
+          <li style="list-style: square">Application of distortion coefficients on the camera.</li>
+          <li style="list-style: square">Release and documentation to use it with different camera for calibration.</li>
+        </ul>
+      </ul>
+      <li style="list-style: square"><B>Mission 2: </B>Maintaining and improving a tracking server.</li>
+      <ul style="margin-left: 3%">
+        <li style="list-style: square"><B>Achievement 1:</B> Transfer of database data to an LDAP directory.</li>
+        <li style="list-style: square"><B>Achievement 2:</B> Handle customer data.</li>
+        <li style="list-style: square"><B>Achievement 3:</B> Internal database for customer data.</li>
+        <li style="list-style: square"><B>Achievement 4:</B> Developing an AI to detect overconsumption of customer.</li>
+      </ul>
+    </ul>
+    </br>
+    </br>
+    <h3><B>SupBiotech:</B> Teaching assistant - <i style="color:gray;">1 year (2019)</i></h3>
+    </br>
+    <ul style="margin-left: 3%">
+      <li style="list-style: square"><B>Technical stack:</B> Teaching, bioinformatics, Database</li>
+      <li style="list-style: square"><B>Languages:</B> Python, SQL, HTML</li>
+      <li style="list-style: square"><B>Achievement 1: </B>Teaching of Python / SQL and HTML skills to first year students.</li>
+      <li style="list-style: square"><B>Achievement 2: </B>Teaching and animate lesson and practice sessions.</li>
+      <li style="list-style: square"><B>Achievement 3: </B>Evaluating with MCQ and midterm.</li>
+    </ul>
+    </br>
+    </br>
+    <h3><B>LRDE (EPITA):</B> - R&D intern and research student <i style="color:gray;">1 year and 6 months (September
+        2018 - February 2020)</i></h3>
+    </br>
+    <ul style="margin-left: 3%">
+      <li style="list-style: square"><B>Technical stack:</B> R&D, Image processing, Image synthesis, AI</li>
+      <li style="list-style: square"><B>Languages:</B> Python, MAYA</li>
+      <li style="list-style: square"><B>Mission: </B>Developing an artificial intelligence to detect any danger in the marine environment.</li>
+      <ul style="margin-left: 3%">
+        <li style="list-style: square"><B>Achievement 1: </B>Getting started with MAYA.</li>
+        <ul style="margin-left: 3%">
+          <li style="list-style: square">Reading the documentation and Python API.</li>
+          <li style="list-style: square">Getting started to use the module related to marine simulation.</li>
+          <li style="list-style: square">Writing a Python script with MAYA API.</li>
+        </ul>
+        <li style="list-style: square"><B>Achievement 2: </B>Writing a Python library based on MAYA.</li>
+        <ul style="margin-left: 3%">
+          <li style="list-style: square">Using the MAYA API.</li>
+          <li style="list-style: square">Developing modulate scripts.</li>
+          <li style="list-style: square">Adding testsuite with unit and non regression tests.</li>
+          <li style="list-style: square">Providing a documentation.</li>
+        </ul>
+        <li style="list-style: square"><B>Achievement 3: Automation of generation</B></li>
+        <ul style="margin-left: 3%">
+          <li style="list-style: square">Creating a batch of video in the marine environment.</li>
+          <li style="list-style: square">Using a lot of parameters (weather, time, objects, ...).</li>
+        </ul>
+      </ul>
+    </ul>
+    </br>
+    </br>
+
+    <h2> Skills</h2>
+    </br>
+    <ul style="margin-left: 3%">
+      <li style="list-style: square">Unix system</li>
+      <li style="list-style: square">Machine learning</li>
+      <li style="list-style: square">Neural networ</li>
+      <li style="list-style: square">LaTeX and MarkDown</li>
+      <li style="list-style: square">Image processing</li>
+      <li style="list-style: square">Artificial intelligence</li>
+      <li style="list-style: square">Research and development</li>
+      <li style="list-style: square">Beamer</li>
+      <li style="list-style: square">Git</li>
+      <li style="list-style: square">Windows OS</li>
+      <li style="list-style: square">Windows software</li>
+      <li style="list-style: square">Database</li>
+    </ul>
+
+    </br>
+    </br>
+    <h2> Languages</h2>
+    </br>
+    <ul style="margin-left: 3%">
+      <li style="list-style: square">Python</li>
+      <li style="list-style: square">C</li>
+      <li style="list-style: square">C++</li>
+      <li style="list-style: square">C#</li>
+      <li style="list-style: square">JAVA</li>
+      <li style="list-style: square">Go</li>
+      <li style="list-style: square">SQL</li>
+    </ul>
+
+  </div>
+
+
+
+
 </body>
 
-</html>
+<footer class="footer">
+  <div class="center-footer">
+    <link rel="stylesheet" type="text/css" href="../footer.css">
+    <a href="https://www.linkedin.com/in/charles-ginane-745299132/" class="fa fa-linkedin btn-footer"
+      style="font-size:25px"></a>
+    <a href="https://github.com/chgigi" class="fa fa-github btn-footer" style="font-size:25px"></a>
+    <a href="mailto:charles.ginane@gmail.com" class="fa fa-envelope fa-mail btn-footer" style="font-size:25px"></a>
+    <a href="#" class="fa fa-phone btn-footer" style="font-size:25px"></a>
+  </div>
+</footer>
